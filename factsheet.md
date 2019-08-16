@@ -37,11 +37,11 @@
 <li><p>mouse</p></li>
 <li><p>rabbit</p></li>
 </ul>
-<p>with full flexibility for parameterization of (anthro)metrics, anatomical and physiological properties, protein expression levels ETC.</p>
+<p>with full flexibility for parameterization of (anthropo)metrics, anatomical and physiological properties, protein expression levels ETC.</p>
 <p>Most important organs included. For each organ:</p>
 <ul>
 <li><p>metabolizing pathways</p></li>
-<li><p>different active transporter types(influx, efflux, Pgp-like)</p></li>
+<li><p>different active transporter types (influx, efflux, Pgp-like)</p></li>
 </ul>
 <p>Biliary tract included, enables enterohepatic cycling</p>
 <ul>
@@ -90,6 +90,11 @@
 <li><p>enzyme specific metabolization kinetics</p></li>
 <li><p>transporter specific transport kinetics</p></li>
 <li><p>inhibition and induction parameters</p></li>
+</ul>
+<p> and for large therapeutic molecules (e.g. antibodies)</p></td>
+<ul>
+<li><p>solute radius (calculted from molecular weight as per default)</p></li>
+<li><p>dissociation constant for binding to FcRn</p></li>
 </ul>
 <p>including a set of pre-parameterized standard compounds</p></td>
 </tr>
